@@ -1,6 +1,55 @@
-li a {
-    color: black;
+/*----------------------------Header */
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+    padding: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 24px;
+    padding: 0;
+    display: inline;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    height: 120px;
+    width: 100%;
+    color: #080808;
     text-decoration: none;
-    }
+}
+
+
 
 /* -------------------------------Colors */
+
+.ui-menu-color-home {
+    background-color: rgba(189, 160, 160, 0.938);
+}
+
+.ui-menu-color-beginners {
+    background-color: rgba(189, 110, 110, 0.938);
+}
+
+.ui-menu-color-gallery {
+    background-color: rgba(201, 62, 62, 0.87);
+}
+
+.ui-menu-color-about {
+    background-color: rgba(216, 8, 8, 0.753);
+}
+
+.ui-menu-color-contact {
+    background-color: rgba(153, 5, 5, 0.795);
+}
+
+/*-----------------------------------------    */
