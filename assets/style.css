@@ -33,14 +33,13 @@ h2 {
 #nav {
     font-size: 150%;
     margin-top: 0;
-    margin-right: 20px;
     float: right;
     display: inline-table;
 }
 
 #nav li{
-    margin-right: 20px;
-    padding: 0;
+    padding-right: 20px;
+    margin: 0;
     display: inline;
     
 }
@@ -81,7 +80,11 @@ h2 {
 
 }
 
-/*----------------------------------------- Header   */
+/*----------------------------------------- Header 2  */
+#hero-image {
+    height: 600px;
+    width: 100%;
+}
 
 
 
