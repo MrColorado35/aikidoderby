@@ -19,6 +19,10 @@
     height: 100%;
     text-align: center;
     padding-left: 20px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .menuitem:hover {
@@ -42,11 +46,63 @@
     right: 0;
     top: 0;
 
-}
 
+}
 
 /*----------------------------------------- Header   */
 
-.picture-header {
-    
+
+
+/*----------------------------paddings, margins,text and stuff */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    color: #eee7e7;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/*----------------------------Footer */
+
+footer {
+    background-color: #292828c2;
+    color: #eee7e7;
+    min-height: 120px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 64px;
+    height: 64px;
+    padding: 24px 0;
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 10px;
+    text-align: center;
+    color: #eee7e7;
+    background-color: #292828c2;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #c71515;    
 }
