@@ -1,7 +1,27 @@
-/*----------------------------Nav */
+/*----------------------------Header */
 
-.list-inline-item:not(:last-child) {
-    margin: 20px;
+h2 {
+    font-family: "Lato" sans-serif;
+    font-weight: 700;
+    color: #eee7e7;
+    letter-spacing: 4px;        
+}
+
+#logo {
+    float: left;
+    padding-left: 20px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+#logo:hover {
+    background-color: #111111;
+}
+
+.list-inline-item{
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -9,16 +29,28 @@
     font-size: 0;
 }
 
-#nav li {
-    font-size: 28px;
-    padding: 20px;
+
+#nav {
+    font-size: 150%;
+    margin-top: 0;
+    margin-right: 20px;
+    float: right;
+    display: inline-table;
+}
+
+#nav li{
+    margin-right: 20px;
+    padding: 0;
     display: inline;
+    
 }
 
 .menuitem {
+    font-family: "Lato" sans-serif;
+    font-weight: 400;
     height: 100%;
     text-align: center;
-    padding-left: 20px;
+    padding-left: 26px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -36,7 +68,7 @@
 }
 
 .all-nav {
-    height: 60px;
+    height: 120px;
     width: 100vw;
     background-color: #292828c2;
     padding:0;
@@ -105,4 +137,8 @@ footer {
 
 .social-links li a i:hover {
     background: #c71515;    
+}
+
+#footer-details {
+    padding: 20px;
 }
