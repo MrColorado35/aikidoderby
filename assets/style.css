@@ -67,7 +67,7 @@ h2 {
 }
 
 .all-nav {
-    height: 120px;
+    height: 110px;
     width: 100vw;
     background-color: #292828c2;
     padding:0;
@@ -82,9 +82,39 @@ h2 {
 
 /*----------------------------------------- Header 2  */
 #hero-image {
-    height: 600px;
-    width: 100%;
+    max-height: 600px;
+    max-width: 600px;
+    text-align: center;
+    padding: 0 10%;
+    margin: 0;
+
+    animation-name: home-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes home-zoom{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#hero-outer {
+    height:100%;
+    width: 100%;
+    background-color: #2e2e2e;
+    display: block;
+    position: relative;
+    top: 110px;
+    
+}
+
+/*----------------------------------------- colors */
+
+
 
 
 
@@ -110,12 +140,13 @@ h2 {
 footer {
     background-color: #292828c2;
     color: #eee7e7;
-    min-height: 120px;
+    height: 100px;
     margin: 0;
-    position: absolute;
+    position: static;
     left: 0;
     right: 0;
     bottom: 0;
+   
 }
 
 .social-links {
