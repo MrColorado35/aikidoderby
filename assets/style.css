@@ -1,5 +1,12 @@
-/*----------------------------Header */
-
+/*------------------------------------------------------------Header */
+body {
+    color: #eee7e7;
+    font-family:  "Inria Serif" sans-serif;
+    margin-right: 0;
+    padding-right: 0;
+    border: 0;
+    
+}
 h2 {
     font-family: "Lato" sans-serif;
     font-weight: 700;
@@ -17,7 +24,7 @@ h2 {
 }
 
 #logo:hover {
-    background-color: #111111;
+    background-color: #c71515;
 }
 
 .list-inline-item{
@@ -57,7 +64,8 @@ h2 {
 }
 
 .menuitem:hover {
-    background-color: #111111;
+    background-color: #c71515;
+    color: #f4f4f4;
 }
 
 .menuitem a {
@@ -68,25 +76,26 @@ h2 {
 
 .all-nav {
     height: 110px;
-    width: 100vw;
-    background-color: #292828c2;
+    width: 100%;
+    background-color: #1e1e1e;
     padding:0;
     margin: 0;
     position: absolute;
     left: 0;
-    right: 0;
     top: 0;
+    z-index: 1;
 
 
 }
 
-/*----------------------------------------- Header 2  */
+/*----------------------------------------------------------- Header 2  */
 #hero-image {
-    max-height: 600px;
-    max-width: 600px;
+   
     text-align: center;
     padding: 0 10%;
     margin: 0;
+    z-index: 3;
+   /* display:block; */
 
     animation-name: home-zoom;
     animation-duration: 6s;
@@ -103,29 +112,57 @@ h2 {
 }
 
 #hero-outer {
-    height:100%;
+    height:80%;
     width: 100%;
     background-color: #2e2e2e;
     display: block;
     position: relative;
-    top: 110px;
-    
+    top: 110px;    
 }
 
-/*----------------------------------------- colors */
+.empty {
+    height: 100px;
+    background-color: inherit;
+    display: block;
+}
+
+
+/*--------------------------------------------------- section-home page */
+
+#main-content {
+    width: 100%;
+    max-height: 100vh;
+    line-height: 30px;     
+    padding: 20px 20%;
+    background-color: #220d0d;
+    position: relative;
+    display: block;
+
+}
+
+.content-box {
+    text-align: left;
+
+}
 
 
 
 
 
-/*----------------------------paddings, margins,text and stuff */
+/*------------------------------------------------ paddings, margins,text and stuff */
+.text {
+    font-family: "Inria Serif" sans-serif;
+    font-weight: 400;
+    color: #eee7e7;    
+}
 
 .uppercase {
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .general-sub {
-    font-family: "Inria Serif", serif;
+    font-family: "Lato", serif;
     font-weight: 300;
     color: #eee7e7;
 }
@@ -135,18 +172,24 @@ h2 {
 }
 
 
-/*----------------------------Footer */
+/*---------------------------------------------------------- Footer */
 
 footer {
     background-color: #292828c2;
     color: #eee7e7;
-    height: 100px;
+    min-height: 120px;
     margin: 0;
-    position: static;
-    left: 0;
-    right: 0;
+    position: absolute;
+    display: block;
+   /* left: 0;
+    right: 0;*/
     bottom: 0;
-   
+    text-align: center;
+}
+
+.footer {
+    z-index: 2;
+    position: relative!important;
 }
 
 .social-links {
@@ -176,3 +219,91 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+/*-----------------------------------------------------------Contact */
+
+
+.contact-invitation {
+    min-height: 150px;
+    width: 100%;
+    margin-top: 110px;
+    padding: 10%;
+    text-align: center;
+    position: relative;
+    display: block;   
+    background-color: #292828c2;    
+}
+
+/*.contact-text {
+    padding: 20%;
+    text-align: center; 
+}
+/*
+.contact-text span {
+    text-align: center;
+}
+*/
+.contact-form {
+    min-height: 120px;
+    width: 100%;
+    padding: 10% 20%;
+    position: relative;
+    display: block;
+    background-color: #220d0d;
+}
+
+/*------------------------------------------------------- Beginners */
+.welcome{
+    position: relative;
+    z-index: 1;
+    background-color: #555353c2;
+    margin-top: 110px;
+    margin-bottom: 0;
+    padding:2% 20%;
+
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 25px;   
+}
+
+.author {
+    text-align: right;
+    font-size: 20px;
+}
+
+.beginners-zone {
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: #555353c2;
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-bottom: 30px;
+    margin: 0;       
+}
+
+.background-image {
+    width: 80%;
+    max-height: 600px;
+    
+    z-index: 2;
+    text-align: center;
+   
+    
+    animation-name: beginners-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes beginners-zoom{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+

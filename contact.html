@@ -15,42 +15,67 @@
     <title>Aikido Derby Club</title>
 </head>
 <body>
-    <nav class="nav">
-        <div class="container-fluid all-nav">
-            <a href="index.html" class="navbar-brand">
-                <h2 id="logo" class="uppercase">Aikido Derby</h2>
-            </a>
-            <div class="row">
-                <div class="col">            
-                    <ul id="nav" class="list-inline menucontainer">
-                        <li class="col-6 ui-menu-color-home list-inline-item menuitem">
-                            <a href="index.html"><i class="fas fa-home" aria-hidden="true"></i><span> Home</span></a>
-                        </li>
-                        <li class="col-6 ui-menu-color-beginners list-inline-item menuitem">
-                            <a href="beginners.html"><i class="fas fa-hand-point-right"></i><span> Beginners Zone</span></a>
-                        </li>
-                        <li class="col-6 col-sm-3 ui-menu-color-gallery list-inline-item menuitem">
-                            <a href="gallery.html"><i class="fas fa-images"></i><span> Gallery</span></a>
-                        </li>
-                        <li class="col-6 col-sm-3 ui-menu-color-about list-inline-item menuitem">
-                            <a href="about.html"><i class="fas fa-question-circle"></i><span> About Our Club</span></a>
-                        </li>
-                        <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                            <a href="contact.html"><i class="fas fa-comment-dots"></i><span> Contact</span></a>
-                        </li>
-                    </ul>
+    <header>
+        <nav class="nav">
+            <div class="container-fluid all-nav">
+                <a href="index.html" class="navbar-brand">
+                    <h2 id="logo" class="uppercase">Aikido Derby</h2>
+                </a>
+                <div class="row">
+                    <div class="col">            
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 ui-menu-color-home list-inline-item menuitem">
+                                <a href="index.html"><i class="fas fa-home" aria-hidden="true"></i><span> Home</span></a>
+                            </li>
+                            <li class="col-6 ui-menu-color-beginners list-inline-item menuitem">
+                                <a href="beginners.html"><i class="fas fa-hand-point-right"></i><span> Beginners Zone</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-gallery list-inline-item menuitem">
+                                <a href="gallery.html"><i class="fas fa-images"></i><span> Gallery</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-about list-inline-item menuitem">
+                                <a href="about.html"><i class="fas fa-question-circle"></i><span> About Our Club</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
+                                <a href="contact.html"><i class="fas fa-comment-dots"></i><span> Contact</span></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <header>
-        
-    
+        </nav>
     </header>
-    <section>
-    
+    <section class="text contact-invitation">
+        <div >
+            <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quia perferendis voluptatibus ratione delectus tenetur expedita ipsum possimus,
+            qui sed reprehenderit veniam aut repellendus aspernatur iusto quidem mollitia a? 
+            Nesciunt placeat officia incidunt eaque, sapiente sed, 
+            laboriosam est, voluptatem neque hic maxime blanditiis culpa quisquam quo.
+            </span>
+        </div>    
     </section>
-    <footer class="container-fluid" >
+    <section class="contact-form">
+        <div class="container" id="contact-form">
+            <div class="center-form contact-form-element">
+                <form action="" method="post">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                    <input type="tel" name="tel" id="tel" class="form-control" placeholder="Your Contact Number">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                    <textarea rows="5" type="text" name="message" id="message" class="form-control" 
+                                placeholder="Your Message" required></textarea>
+                   <div class="form-row text-center">
+                       <div class="col">
+                        <button type="submit" class="btn btn-secondary" style="font-size: 26px;">Get in Touch    <i class="far fa-grin-alt"></i></button>
+                    </div>
+                   </div>             
+                </form>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="container-fluid footer">
         <div class="row"  id="footer-details">
             <div class="col-sm-6">
                 <h5 class="uppercase general-sub">About</h5>
@@ -59,7 +84,7 @@
                 Beginners are always welcome!</p>
             </div>
             <div class="col-sm-6">
-                <h5 class="uppercase general-sub">Social</h5>
+                <h5 class="uppercase general-sub">our Social media:</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a href="https://www.facebook.com/aikidoderby/" target="_blank">
