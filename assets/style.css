@@ -2,12 +2,16 @@
 body {
     color: #eee7e7;
     font-family:  "Inria Serif" sans-serif;
-    margin-right: 0;
-    padding-right: 0;
+    margin: 0;
+    padding: 0;
     border: 0;
     
 }
-h2 {
+
+h1,
+h2,
+h3,
+h4 {
     font-family: "Lato" sans-serif;
     font-weight: 700;
     color: #eee7e7;
@@ -25,6 +29,10 @@ h2 {
 
 #logo:hover {
     background-color: #c71515;
+}
+
+.active{
+    border-bottom: 1px solid #c71515;
 }
 
 .list-inline-item{
@@ -88,11 +96,11 @@ h2 {
 
 }
 
-/*----------------------------------------------------------- Header 2  */
+/*----------------------------------------------------------- Home  */
 #hero-image {
    
     text-align: center;
-    padding: 0 10%;
+    padding: 0;
     margin: 0;
     z-index: 3;
    /* display:block; */
@@ -178,8 +186,7 @@ footer {
     background-color: #292828c2;
     color: #eee7e7;
     min-height: 120px;
-    margin: 0;
-    position: absolute;
+    margin: 0;    
     display: block;
    /* left: 0;
     right: 0;*/
@@ -189,7 +196,7 @@ footer {
 
 .footer {
     z-index: 2;
-    position: relative!important;
+    position: relative;
 }
 
 .social-links {
@@ -217,7 +224,7 @@ footer {
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 40px;
 }
 
 /*-----------------------------------------------------------Contact */
@@ -306,4 +313,43 @@ footer {
     }
 }
 
+.short-description {
+    position: relative;
+    z-index: 1;
+    background-color: #555353c2;
+    margin-top:0;
+    margin-bottom: 0;
+    padding:5% 20%;
+}
 
+/*------------------------------------------------------- Gallery*/
+
+.gallery-text {
+    position: relative;
+    margin-top: 110px;
+    padding: 3%;
+    font-size: 20px;
+    background-color: #555353c2;
+    text-align: center;
+}
+.display-order {
+     background-color:  #220d0d;
+     padding: 5%;
+}
+
+.picture {
+   
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: inline;
+}
+
+#picture {
+    padding: 30px;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    
+
+}
