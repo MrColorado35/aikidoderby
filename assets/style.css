@@ -83,27 +83,29 @@ h4 {
 }
 
 .all-nav {
-    height: 110px;
+
     width: 100%;
     background-color: #1e1e1e;
-    padding:0;
-    margin: 0;
+    
     position: absolute;
     left: 0;
     top: 0;
     z-index: 1;
-
-
 }
 
 /*----------------------------------------------------------- Home  */
+
+#hero-outer {
+    background-color: #555353c2;
+    
+    position: relative;
+    top: 110px;    
+}
+
 #hero-image {
    
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    text-align: center;   
     z-index: 3;
-   /* display:block; */
 
     animation-name: home-zoom;
     animation-duration: 6s;
@@ -119,14 +121,7 @@ h4 {
     }
 }
 
-#hero-outer {
-    height:80%;
-    width: 100%;
-    background-color: #2e2e2e;
-    display: block;
-    position: relative;
-    top: 110px;    
-}
+
 
 .empty {
     height: 100px;
@@ -287,7 +282,7 @@ footer {
     background-color: #555353c2;
     padding-top: 30px;
     padding-left: 15%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin: 0;       
 }
 
@@ -316,7 +311,7 @@ footer {
 .short-description {
     position: relative;
     z-index: 1;
-    background-color: #555353c2;
+    background-color: #220d0d;
     margin-top:0;
     margin-bottom: 0;
     padding:5% 20%;
@@ -327,11 +322,13 @@ footer {
 .gallery-text {
     position: relative;
     margin-top: 110px;
-    padding: 3%;
+    height: 20%;
+    padding: 8%;
     font-size: 20px;
     background-color: #555353c2;
     text-align: center;
 }
+
 .display-order {
      background-color:  #220d0d;
      padding: 5%;
@@ -345,11 +342,54 @@ footer {
     display: inline;
 }
 
-#picture {
+#picture  {
+
     padding: 30px;
     margin: 0;
     border: 0;
-    background-color: transparent;
-    
+    background-color:  #220d0d;
+} 
 
+/*------------------------------------------------------- About Our Club*/
+
+.container-about {
+    
+    display: inline-block;
+    background-color: #555353c2;
+    margin-top:110px;
+    padding:5%;    
+    
+}
+
+.picture-about {
+    float: left;
+    clear: none;
+    padding-left: 5%;
+}
+
+.text-about {
+ 
+    text-align: center;
+    
+    max-width: 80%;
+    line-height: 26px;
+    padding-left: 30%;
+    margin-left: 10%;
+
+}
+
+.container2 {
+    background-color:  #220d0d;
+    padding: 5%;
+    display: inline-block;
+} 
+
+.picture2about {
+    float: right;
+    padding:0 5%;
+}
+
+.text2about {
+    max-width: 80%;
+    line-height: 26px;
 }
