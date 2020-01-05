@@ -257,7 +257,7 @@ footer {
 /*------------------------------------------------------- Beginners */
 .welcome{
     position: relative;
-    z-index: 1;
+    z-index: 2;
     background-color: #555353c2;
     margin-top: 110px;
     margin-bottom: 0;
@@ -290,7 +290,7 @@ footer {
     width: 80%;
     max-height: 600px;
     
-    z-index: 2;
+    z-index: 3;
     text-align: center;
    
     
@@ -332,6 +332,7 @@ footer {
 .display-order {
      background-color:  #220d0d;
      padding: 5%;
+     text-align: center;
 }
 
 .picture {
