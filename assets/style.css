@@ -28,14 +28,15 @@ h4 {
 }
 
 #logo:hover {
-    background-color: #c71515;
+  color: #fffff4;
+  font-size: 35px;
 }
 
 .active{
     border-bottom: 1px solid #c71515;
-}
+} 
 
-.list-inline-item{
+/* .list-inline-item{
     margin: 0 auto;
     padding: 0;
 }
@@ -74,7 +75,7 @@ h4 {
 .menuitem:hover {
     background-color: #c71515;
     color: #f4f4f4;
-}
+} */
 
 .menuitem a {
     width: 100%;
@@ -85,25 +86,26 @@ h4 {
 .all-nav {
 
     width: 100%;
-    background-color: #1e1e1e;
-    
-    position: absolute;
-    left: 0;
-    top: 0;
+    background-color: #343a40;
     z-index: 1;
 }
 
 /*----------------------------------------------------------- Home  */
 
 #hero-outer {
+    width: 100%;
+    /* display: block;
+    position: relative; */
     background-color: #555353c2;
-    
-    position: relative;
-    top: 110px;    
-} 
+    padding-top: 0;
+    padding-right: 5%;
+    padding-left: 10%;
+         
+}
 
 #hero-image {
-   
+    max-width: 95%;
+    max-height: 600px;
     text-align: center;   
     z-index: 3;
 
@@ -238,7 +240,6 @@ footer {
 .contact-invitation {
     min-height: 150px;
     width: 100%;
-    margin-top: 110px;
     padding: 10%;
     text-align: center;
     position: relative;
@@ -246,15 +247,6 @@ footer {
     background-color: #292828c2;    
 }
 
-/*.contact-text {
-    padding: 20%;
-    text-align: center; 
-}
-/*
-.contact-text span {
-    text-align: center;
-}
-*/
 .contact-form {
     min-height: 120px;
     width: 100%;
@@ -269,8 +261,6 @@ footer {
     position: relative;
     z-index: 2;
     background-color: #555353c2;
-    margin-top: 110px;
-    margin-bottom: 0;
     padding:2% 20%;
 
 }
@@ -331,7 +321,6 @@ footer {
 
 .gallery-text {
     position: relative;
-    margin-top: 110px;
     height: 20%;
     padding: 8%;
     font-size: 20px;
@@ -367,45 +356,50 @@ footer {
 
 /*------------------------------------------------------- About Our Club*/
 
-.container-about {
-    
-    display: inline-block; 
+.container-about {    
     background-color: #555353c2;
-    margin-top:110px;
-    padding:5%;    
-    
+    padding:5%;  
+    margin: 0;
+    width: 100%;     
 }
 
 .picture-about {
-    float: left;
-    clear: none;
+    /* float: left;
+    clear: none; */
     padding-left: 5%;
 }
 
 .text-about {
  
-    text-align: center;
-    
-    max-width: 80%;
+    text-align: center;    
+    width: 100%;
     line-height: 26px;
-    padding-left: 30%;
-    margin-left: 10%; 
+    padding: 4%;
 
-}
+    /* float: left; */
+    /* padding-left: 30%;
+    margin-left: 10%;  */
+    }
 
 .container2 {
     background-color:  #220d0d;
     padding: 5%;
-    display: inline-block;
+    margin: 0;
+
+    /* display: block; */
+    /* float:right; */
 }  
 
 .picture2about {
-    float: right;
-    padding:0 5%;
+    /* float: right; */
+    padding:0 4%;
+    clear: none;
 }
 
 .text2about {
-    max-width: 80%;
+    width: 100%;
     line-height: 26px;
-    float: left;
+    text-align: center;
+    padding: 4%;
+    /* float: right; */
 }
