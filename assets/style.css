@@ -149,7 +149,7 @@ h4 {
     max-height: 100vh;
     line-height: 30px;     
     padding: 20px 20%;
-    background-color: #220d0d;
+    background-color:#211e25;
     position: relative;
     display: block;
 
@@ -253,7 +253,7 @@ footer {
     padding: 10% 20%;
     position: relative;
     display: block;
-    background-color: #220d0d;
+    background-color:#211e25;
 }
 
 /*------------------------------------------------------- Beginners */
@@ -311,7 +311,7 @@ footer {
 .short-description {
     position: relative;
     z-index: 1;
-    background-color: #220d0d;
+    background-color:#211e25;
     margin-top:0;
     margin-bottom: 0;
     padding:5% 20%;
@@ -329,7 +329,7 @@ footer {
 }
 
 .display-order {
-     background-color:  #220d0d;
+     background-color:  #211e25;
      padding: 5%;
      text-align: center;
 }
@@ -347,7 +347,7 @@ footer {
     padding: 30px;
     margin: 0;
     border: 0;
-    background-color:  #220d0d;
+    background-color:  #211e25;
 } 
 
 .gallery-item {
@@ -360,7 +360,7 @@ footer {
     background-color: #555353c2;
     padding:5%;  
     margin: 0;
-    width: 100%;     
+    width: 100%;    
 }
 
 .picture-about {
@@ -382,9 +382,9 @@ footer {
     }
 
 .container2 {
-    background-color:  #220d0d;
+    background-color:  #211e25;
     padding: 5%;
-    margin: 0;
+    margin: 0; 
 
     /* display: block; */
     /* float:right; */
