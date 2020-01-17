@@ -36,46 +36,20 @@ h4 {
     border-bottom: 1px solid #c71515;
 } 
 
-/* .list-inline-item{
-    margin: 0 auto;
-    padding: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-
-#nav {
-    font-size: 150%;
-    margin-top: 0;
-    float: right;
-    display: inline-table;
-}
-
-#nav li{
-    padding-right: 20px;
-    margin: 0;
-    display: inline;
-    
-}
-
-.menuitem {
+.link {
     font-family: "Lato" sans-serif;
     font-weight: 400;
     height: 100%;
-    text-align: center;
-    padding-left: 26px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
 
-.menuitem:hover {
-    background-color: #c71515;
+.link:hover {
     color: #f4f4f4;
-} */
+    font-size: 120%;
+} 
 
 .menuitem a {
     width: 100%;
@@ -94,8 +68,6 @@ h4 {
 
 #hero-outer {
     width: 100%;
-    /* display: block;
-    position: relative; */
     background-color: #555353c2;
     padding-top: 0;
     padding-right: 5%;
@@ -122,27 +94,6 @@ h4 {
         transform: scale(1.1);
     }
 } 
-/* 
-#home-image {
-    background-clip:border-box;
-    background-image: url(images/image1.png);
-    -moz-background-size: cover;
-    min-height: 500px;   
-    margin-top: 100px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}  */
-
-
- .empty {
-    height: 100px;
-    background-color: inherit;
-    display: block;
-}
-
-
-/*--------------------------------------------------- section-home page */
 
 #main-content {
     width: 100%;
@@ -152,11 +103,13 @@ h4 {
     background-color:#211e25;
     position: relative;
     display: block;
+    
 
 }
 
 .content-box {
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
 
 }
 
@@ -168,7 +121,9 @@ h4 {
 .text {
     font-family: "Inria Serif" sans-serif;
     font-weight: 400;
-    color: #eee7e7;    
+    color: #eee7e7;  
+    font-size: 20px;  
+    text-decoration: none;
 }
 
 .uppercase {
@@ -267,12 +222,12 @@ footer {
 
 .welcome-text {
     text-align: center;
-    font-size: 25px;   
+    font-size: 23px;   
 }
 
 .author {
     text-align: right;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .beginners-zone {
@@ -316,6 +271,7 @@ footer {
     margin-bottom: 0;
     padding:5% 20%;
 }
+
 
 /*------------------------------------------------------- Gallery*/
 
@@ -364,16 +320,14 @@ footer {
 }
 
 .picture-about {
-    /* float: left;
-    clear: none; */
-    /* padding-left: 5%; */
+    padding-left: 5%; 
 }
 
 .text-about {
  
     text-align: center;    
-    width: 100%;
-    line-height: 26px;
+    /* width: 120%; */
+    /* line-height: 26px; */
     padding: 4%;
 
     /* float: left; */
@@ -391,8 +345,8 @@ footer {
 }  
 
 .picture2about {
-    /* float: right; */
-    padding:0 4%;
+    float: right; 
+    padding:0 5%;
     clear: none;
 }
 
