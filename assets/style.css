@@ -315,13 +315,13 @@ footer {
 
 .container-about {    
     background-color: #555353c2;
-    padding:5%;  
+    padding: 5%;  
     margin: 0;
     width: 100%;    
 }
 
 .picture-about {
-    padding-left: 5%; 
+    text-align: center
 }
 
 .text-about {
@@ -329,11 +329,7 @@ footer {
     text-align: center;    
     /* width: 120%; */
     /* line-height: 26px; */
-    padding: 4%;
-
-    /* float: left; */
-    /* padding-left: 30%;
-    margin-left: 10%;  */
+    padding:0 4%;
     }
 
 .container2 {
@@ -346,15 +342,16 @@ footer {
 }  
 
 .picture2about {
-    float: right; 
+    /* float: right; 
     padding:0 5%;
-    clear: none;
+    clear: none; */
+    text-align: center;
 }
 
 .text2about {
     width: 100%;
     line-height: 26px;
     text-align: center;
-    padding: 4%;
+    padding:0 4%;
     /* float: right; */
 }
