@@ -1,4 +1,4 @@
-# milestone-project
+# Milestone-Project
 Aikido Derby website- The Milestone Project by Stan Kaczorkiewicz
 
 This is my first project on the course of Full Stack Web Developer by Code Institute. 
