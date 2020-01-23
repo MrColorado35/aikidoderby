@@ -85,6 +85,7 @@ h4 {
     animation-name: home-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
+
 }
 
 @keyframes home-zoom{
@@ -101,7 +102,7 @@ h4 {
     max-height: 100vh;
     line-height: 30px;     
     padding: 20px 20%;
-    background-color:#211e25;
+    background-color:#1C3144;
     position: relative;
     display: block;
     
@@ -114,9 +115,10 @@ h4 {
 
 }
 
-.map-outer {
+.map-outer,
+.link-outer {
     /* min-height: 400px; */
-    background-color: #211e25;
+    background-color: #232C33;
     padding: 2% 5%;
     text-align: center
 }
@@ -266,6 +268,9 @@ footer {
     animation-name: beginners-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
+    -moz-animation-duration: 6s;
+    -moz-animation-fill-mode: forwards;
+    
 }
 
 @keyframes beginners-zoom{
@@ -280,7 +285,7 @@ footer {
 .short-description {
     position: relative;
     z-index: 1;
-    background-color:#211e25;
+    background-color:#1C3144;
     margin-top:0;
     margin-bottom: 0;
     padding:5% 20%;
@@ -289,7 +294,7 @@ footer {
 
 /*------------------------------------------------------- Gallery*/
 
-.gallery-text {
+#gallery-text {
     position: relative;
     height: 20%;
     padding: 8%;
@@ -299,7 +304,7 @@ footer {
 }
 
 .display-order {
-     background-color:  #211e25;
+     background-color:  #1C3144;
      padding: 5%;
      text-align: center;
 }
@@ -317,7 +322,7 @@ footer {
     padding: 30px;
     margin: 0;
     border: 0;
-    background-color:  #211e25;
+    background-color:  inherit;
 } 
 
 .gallery-item {
