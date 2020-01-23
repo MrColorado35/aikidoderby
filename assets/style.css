@@ -61,7 +61,7 @@ h4 {
 .all-nav {
 
     width: 100%;
-    background-color: #343a40;
+    background-color: #232C33;
     z-index: 1;
 }
 
@@ -215,7 +215,7 @@ footer {
     text-align: center;
     position: relative;
     display: block;   
-    background-color: #292828c2;    
+    background-color: #555353c2;    
 }
 
 .contact-form {
@@ -224,7 +224,7 @@ footer {
     padding: 10% 20%;
     position: relative;
     display: block;
-    background-color:#211e25;
+    background-color:#232C33;
 }
 
 /*------------------------------------------------------- Beginners */
@@ -351,7 +351,7 @@ footer {
     }
 
 .container-jason {
-    background-color:  #211e25;
+    background-color:  #232C33;
     padding: 5%;
     margin: 0; 
 
