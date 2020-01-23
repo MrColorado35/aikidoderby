@@ -210,20 +210,34 @@ footer {
 .contact-invitation {
     min-height: 150px;
     width: 100%;
-    padding: 10%;
+    padding: 2% 15% 5px 15%;
     text-align: center;
     position: relative;
     display: block;   
-    background-color: #555353c2;    
+    background-color: #555353c2; 
 }
+
+#contact-card {
+   background-color: #292828c2;
+   color:#eee7e7; 
+   border: none;
+}
+
 
 .contact-form {
     min-height: 120px;
     width: 100%;
-    padding: 10% 20%;
+    padding: 8% 20% 10% 20%;
     position: relative;
     display: block;
     background-color:#232C33;
+}
+
+.if-you-have-to {
+     background-color:#232C33;
+     text-align: center;
+     padding: 0 0 2% 0;
+     margin: 0;
 }
 
 /*------------------------------------------------------- Beginners */
@@ -235,7 +249,7 @@ footer {
 }
 
 .quote {
-    background-color: #1C3144;
+    background-color: #555353c2;
 }
 
  .welcome-text {
