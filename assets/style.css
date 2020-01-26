@@ -123,12 +123,16 @@ h4 {
     text-align: center
 }
 
-
 .map {
     height: 100%;
     text-align: center;
 }
 
+#welcome-video{
+    width :60%;
+    border: none;
+
+}
 
 /*------------------------------------------------ paddings, margins,text and stuff */
 .text {
@@ -208,7 +212,7 @@ footer {
 .contact-invitation {
     min-height: 150px;
     width: 100%;
-    padding: 2% 15% 5px 15%;
+    padding: 1% 15%;
     text-align: center;
     position: relative;
     display: block;   
@@ -225,7 +229,7 @@ footer {
 .contact-form {
     min-height: 120px;
     width: 100%;
-    padding: 8% 20% 10% 20%;
+    padding: 4% 20% 10% 20%;
     position: relative;
     display: block;
     background-color:#232C33;
