@@ -372,12 +372,12 @@ footer {
     width: 100%;
 }  
 
-/* .picture-jason {
+ .picture-jason {
     text-align: center;
-} */
+} 
 
 .text-jason {
-    width: 100%;
+    /* width: 100%; */
     line-height: 26px;
     text-align: center;
     padding:0 4%;
