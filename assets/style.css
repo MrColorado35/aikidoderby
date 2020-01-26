@@ -81,7 +81,8 @@ h4 {
     /* max-height: 600px; */
     text-align: center;   
     z-index: 3;
-
+    }
+/* 
     animation-name: home-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
@@ -95,7 +96,7 @@ h4 {
     to {
         transform: scale(1.1);
     }
-} 
+}  */
 
 #main-content {
     width: 100%;
@@ -122,13 +123,11 @@ h4 {
     text-align: center
 }
 
+
 .map {
     height: 100%;
     text-align: center;
 }
-
-
-
 
 
 /*------------------------------------------------ paddings, margins,text and stuff */
@@ -268,7 +267,7 @@ footer {
     background-color: #555353c2;
     padding-top: 30px;
     padding-left: 15%;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
     margin: 0;       
 }
 
