@@ -115,6 +115,7 @@ Testing
     During the proccess of creation of my first website, I was constantly testing it's functionality.
     My main worry in this subject was to make it responsive, as many users may visit it through their phones.
     
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/MrColorado35/milestone-project) 
 
 
 
