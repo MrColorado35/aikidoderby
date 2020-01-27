@@ -15,7 +15,7 @@ diversify our member profile by inviting more female students (as currently we o
 and kids (as we are planning to start a kids-only class soon).
 
 
-UX
+##UX
 
 My goal was to create good user-friendly experience, for people that don't know anything about Aikido yet,
 But potentially would like to come and try, for example as a result of their New Year resolutions.
@@ -37,17 +37,17 @@ Also that's why I left our sensei's number in the footer,
 if anyone has got a questions that our website are not answering yet.
 
 
-Features:
+##Features:
 
 On the home page, I've decided to use the picture of Sensei in-motion, 
 presenting one of the more advanced techniques 
 and turn it into animation, to draw more attention of the visitors.
 Underneath we've got some text-description of what aikido is, 
-based on the article from Wikipedia (https://en.wikipedia.org/wiki/Aikido), section "training".
+based on the article from Wikipedia.
 As it's extremly hard to work with kids in a pre-school age, I've highlighted note about minimum age,
 among with information that we are open to all adults that want to join us.
 
-The beginners zone contains the quote from https://www.goodreads.com/quotes/384630-aikido-ain-t-a-defensive-nor-offensive-martial-art-it-proactively
+The "Beginners zone" contains the quote about aikido,
 then another animated picture of sensei presenting more static technique, 
 as I'm trying not to scare the beginners with difficulty of aikido techniques.
 Another reason for choosing that picture was the only girl in our club, that is present there- 
@@ -59,14 +59,11 @@ I've also left the note of how to dress, as it may not be obvious.
 Our address and time are highlighted, 
 as that's the most important info on whole website and main reason for people to visit it.
 
-The gallery page is based on the modals, provided by Bootstrap. 
-All the pictures are either made by myself, or other members of our club and then presented on our Facebook profile.
+"Gallery" page is based on the modals, provided by Bootstrap. 
 Users that are parents, can find pictures of other kids on some of the photos, 
 so it may make them happy to send their kids for the class as well.
 All users can see examples of various techniques, 
 hopefully attractive enough to interest more people to come and try.
-I've got more of the pictures and some videos to be attached here, but I'm not sure if it won't slow my website down,
-making it less-pleasant for the users to interact with.
 
 
 "About" section provides the picture of the founder of Aikido with some brief informations about history of Aikido 
@@ -79,25 +76,21 @@ I was implementig the Idea of not overloading my website with unneeded content).
 (that is not fully functional yet), if someone shy to call sensei or text him on Facebook.
 
 
-Features:
-
-    Existing features:
+### Existing features:
     -gallery with the modals, hopefully more attractive than other ways;
     -responsive design, that works and looks good on all various types of the equipment;
     -fully functional nav panel, that adjust to the size of the screen;
 
 
-    Features Left to Implement:
+### Features Left to Implement:
     -form from the contact page to send the messages straight to the sensei;
     -some slow-motion videos to be embedded to the gallery page (the one I was trying to add recently does not work);
     -as we've got the Club T-shirts, it could be good idea to provide option of buying them through our website,
      (after I learn how to make it), as it will benefit the club.
-    -as we've got the dojo-etiquette, that I was trying to add to our website- unfortunately I was unsuccessfull- 
-     I'm going to find the way to add it as separate file that user can download or print. When I'll learn how to do it.
+    
 
 
-
-Technologies Used:
+##Technologies Used:
 
     -HTML5 -            I used it to create the core of my website;
 
@@ -113,10 +106,58 @@ Technologies Used:
    -JQuery -            That was used as a part of the bootstrap, to help with responsivness of my nav-bar;
 
 
-Testing
+##Testing
 
     During the proccess of creation of my first website, I was constantly testing it's functionality.
     My main worry in this subject was to make it responsive, as many users may visit it through their phones.
+    I tested them manually at the first time, changing elements either in dev-tools (using Google Chrome web browser),
+    or straight in gitpod, where I have created whole project.
+
+    As the website is intendet for people that would like to join our club, I was trying to adjust everything
+    to make finding us as easy as it's possible and not to overload website with the unnecessery content.
+    
+    One of the main problems I found, was the animated picture on the main page, 
+    that didn't work very well on Mozilla, also on larger screens than mine it didn't perform as great. 
+    Finaly I've decided to live the main picture static, as it improves overall effect on any equipment.
+
+    I have also run automated tests on https://validator.w3.org/ to eliminate all code issues, 
+    and format my code at https://www.freeformatter.com/html-formatter.html to make it look nice and clear 
+    for other developers that may ever work with it.
+
+    While the proccess of deployment of my website, I've slightly changed the name of my project on the GitHub.
+    That effects in a lot of issues with gitpod,
+    I'm still trying to understand what happened and why, to avoid similar mistakes in my future projects.
+
+
+##Deployment 
+
+    I'm still struggling with deployment of my page, trying to figure out why 
+    Gitpod pages don't want to work.
+    Tutor help could be very useful, but unlickily because of my current work, 
+    I can only work over my project in evnings, when they are really busy.
+    I'll update this section when I will only manage to do it.
+
+##Credit
+
+###Content
+    - The text in Index, section two is partially taken from wikipedia page https://en.wikipedia.org/wiki/Aikido
+    section "training"
+    - Also text in a first section on "about" page comes from the article above.
+    - Bottom section of "about" page is an essence of description on Aikido Derby Facebook page, (https://www.facebook.com/aikidoderby/)
+    - Quote in a "Beginners Zone" comes from https://www.goodreads.com/quotes/384630-aikido-ain-t-a-defensive-nor-offensive-martial-art-it-proactively
+
+###Media
+    -Picture of a Sensei Founder comes from https://en.wikipedia.org/wiki/Morihei_Ueshiba 
+    -All other pictures comes from our Facebook page or has been done by myself.
+    -The Youtube video comes from our Youtube profile and has been made by "Sensei's Friend", 
+     that is mentioned in video description.
+
+###Acknowledgement 
+I recived an inspiration from various projects I've done as a part of the course,
+i.eg. The idea of animated pictures comes frome "love running" project, 
+      The idea for the footer comes frome "Resume project" on the end of CSS part,
+I also took the idea of the top navigation from https://blackrockdigital.github.io/startbootstrap-freelancer/ 
+and then adjust it to my needs.
     
 
 
