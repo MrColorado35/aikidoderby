@@ -15,7 +15,7 @@ diversify our member profile by inviting more female students (as currently we o
 and kids (as we are planning to start a kids-only class soon).
 
 
-##UX
+ ## UX
 
 My goal was to create good user-friendly experience, for people that don't know anything about Aikido yet,
 But potentially would like to come and try, for example as a result of their New Year resolutions.
@@ -37,7 +37,7 @@ Also that's why I left our sensei's number in the footer,
 if anyone has got a questions that our website are not answering yet.
 
 
-##Features:
+## Features:
 
 On the home page, I've decided to use the picture of Sensei in-motion, 
 presenting one of the more advanced techniques 
@@ -77,36 +77,36 @@ I was implementig the Idea of not overloading my website with unneeded content).
 
 
 ### Existing features:
-    -gallery with the modals, hopefully more attractive than other ways;
-    -responsive design, that works and looks good on all various types of the equipment;
-    -fully functional nav panel, that adjust to the size of the screen;
+- gallery with the modals, hopefully more attractive than other ways;
+- responsive design, that works and looks good on all various types of the equipment;
+- fully functional nav panel, that adjust to the size of the screen;
 
 
 ### Features Left to Implement:
-    -form from the contact page to send the messages straight to the sensei;
-    -some slow-motion videos to be embedded to the gallery page (the one I was trying to add recently does not work);
-    -as we've got the Club T-shirts, it could be good idea to provide option of buying them through our website,
+- form from the contact page to send the messages straight to the sensei;
+- some slow-motion videos to be embedded to the gallery page (the one I was trying to add recently does not work);
+- as we've got the Club T-shirts, it could be good idea to provide option of buying them through our website,
      (after I learn how to make it), as it will benefit the club.
     
 
 
-##Technologies Used:
+## Technologies Used:
 
-    -HTML5 -            I used it to create the core of my website;
+    - HTML5 -            I used it to create the core of my website;
 
-    -CSS3 -             I used it to style it;
+    - CSS3 -             I used it to style it;
 
-    -GitHub -           Provides me the enviroment to work within;
+    - GitHub -           Provides me the enviroment to work within;
 
     - Bootstrap 4.4 -   I used it to provide responsive Navigation and the Gallery page;
 
     - Fontawesome -     They provide the icons for the links in footer section on each page, 
                         also the "smiling faces" icon that I used in two other places across the page comes from there;
 
-   -JQuery -            That was used as a part of the bootstrap, to help with responsivness of my nav-bar;
+    - JQuery -            That was used as a part of the bootstrap, to help with responsivness of my nav-bar;
 
 
-##Testing
+## Testing
 
     During the proccess of creation of my first website, I was constantly testing it's functionality.
     My main worry in this subject was to make it responsive, as many users may visit it through their phones.
@@ -129,7 +129,7 @@ I was implementig the Idea of not overloading my website with unneeded content).
     I'm still trying to understand what happened and why, to avoid similar mistakes in my future projects.
 
 
-##Deployment 
+## Deployment 
 
     I'm still struggling with deployment of my page, trying to figure out why 
     Gitpod pages don't want to work.
@@ -137,27 +137,29 @@ I was implementig the Idea of not overloading my website with unneeded content).
     I can only work over my project in evnings, when they are really busy.
     I'll update this section when I will only manage to do it.
 
-##Credit
+## Credit
 
-###Content
-    - The text in Index, section two is partially taken from wikipedia page https://en.wikipedia.org/wiki/Aikido
-    section "training"
-    - Also text in a first section on "about" page comes from the article above.
-    - Bottom section of "about" page is an essence of description on Aikido Derby Facebook page, (https://www.facebook.com/aikidoderby/)
-    - Quote in a "Beginners Zone" comes from https://www.goodreads.com/quotes/384630-aikido-ain-t-a-defensive-nor-offensive-martial-art-it-proactively
+### Content
+- The text in Index, section two is partially taken from wikipedia page https://en.wikipedia.org/wiki/Aikido
+section "training"
+- Also text in a first section on "about" page comes from the article above.
+- Bottom section of "about" page is an essence of description on Aikido Derby Facebook page, (https://www.facebook.com/aikidoderby/)
+- Quote in a "Beginners Zone" comes from https://www.goodreads.com/quotes/384630-aikido-ain-t-a-defensive-nor-offensive-martial-art-it-proactively
 
-###Media
-    -Picture of a Sensei Founder comes from https://en.wikipedia.org/wiki/Morihei_Ueshiba 
-    -All other pictures comes from our Facebook page or has been done by myself.
-    -The Youtube video comes from our Youtube profile and has been made by "Sensei's Friend", 
-     that is mentioned in video description.
+ ### Media
+- Picture of a Sensei Founder comes from https://en.wikipedia.org/wiki/Morihei_Ueshiba 
+- All other pictures comes from our Facebook page or has been done by myself.
+- The Youtube video comes from our Youtube profile and has been made by "Sensei's Friend", 
+ that is mentioned in video description.
 
-###Acknowledgement 
+### Acknowledgement 
 I recived an inspiration from various projects I've done as a part of the course,
 i.eg. The idea of animated pictures comes frome "love running" project, 
       The idea for the footer comes frome "Resume project" on the end of CSS part,
 I also took the idea of the top navigation from https://blackrockdigital.github.io/startbootstrap-freelancer/ 
 and then adjust it to my needs.
+    
+
     
 
 
