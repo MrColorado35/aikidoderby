@@ -49,6 +49,7 @@ h4 {
 .link:hover {
     color: #f4f4f4;
     font-size: 120%;
+    text-decoration: none;
 } 
 
 
@@ -162,8 +163,6 @@ footer {
     min-height: 120px;
     margin: 0;    
     display: block;
-   /* left: 0;
-    right: 0;*/
     bottom: 0;
     text-align: center;
 }
@@ -365,6 +364,11 @@ footer {
     object-fit:contain;
 }
 
+.homemade {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
 /*------------------------------------------------------- About Our Club*/
 
 .container-about {    
@@ -380,9 +384,7 @@ footer {
 
 .text-about {
  
-    text-align: center;    
-    /* width: 120%; */
-    /* line-height: 26px; */
+    text-align: center;  
     padding:0 4%;
     }
 
