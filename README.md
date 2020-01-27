@@ -89,9 +89,12 @@ Features:
 
     Features Left to Implement:
     -form from the contact page to send the messages straight to the sensei;
-    -some slow-motion videos to be embedded to the gallery page;
+    -some slow-motion videos to be embedded to the gallery page (the one I was trying to add recently does not work);
     -as we've got the Club T-shirts, it could be good idea to provide option of buying them through our website,
      (after I learn how to make it), as it will benefit the club.
+    -as we've got the dojo-etiquette, that I was trying to add to our website- unfortunately I was unsuccessfull- 
+     I'm going to find the way to add it as separate file that user can download or print. When I'll learn how to do it.
+
 
 
 Technologies Used:
@@ -115,6 +118,8 @@ Testing
     During the proccess of creation of my first website, I was constantly testing it's functionality.
     My main worry in this subject was to make it responsive, as many users may visit it through their phones.
     
+
+
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/MrColorado35/milestone-project) 
 
 

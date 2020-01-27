@@ -117,8 +117,12 @@ h4 {
 .map-outer,
 .link-outer {
     background-color: #232C33;
-    padding:  5%;
+    padding: 4% 5%;
     text-align: center
+}
+
+.hint {
+    padding-bottom: 3%;
 }
 
 #welcome-video{
@@ -376,7 +380,8 @@ footer {
 }
 
 .picture-about {
-    text-align: center
+    text-align: center;
+    padding: 3%;
 }
 
 .text-about {
@@ -394,6 +399,7 @@ footer {
 
  .picture-jason {
     text-align: center;
+    padding: 3%;
 } 
 
 .text-jason {
