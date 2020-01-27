@@ -1,18 +1,17 @@
 /*------------------------------------------------------------Header */
 body {
     color: #eee7e7;
-    font-family:  "Inria Serif" sans-serif;
+    font-family: 'Inria Serif', serif;
     margin: 0;
     padding: 0;
-    border: 0;
-    
+    border: 0;    
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Lato" sans-serif;
+    font-family: 'Lato', serif;
     font-weight: 700;
     color: #eee7e7;
     letter-spacing: 4px;        
@@ -37,7 +36,7 @@ h4 {
 } 
 
 .link {
-    font-family: "Lato" sans-serif;
+    font-family: "Lato", serif;
     font-weight: 400;
     height: 100%;
     transition: all 0.5s ease-in-out;
@@ -79,7 +78,6 @@ h4 {
 
 #hero-image {
     max-width: 95%;
-    /* max-height: 600px; */
     text-align: center;   
     z-index: 3;
     }
@@ -118,7 +116,6 @@ h4 {
 
 .map-outer,
 .link-outer {
-    /* min-height: 400px; */
     background-color: #232C33;
     padding:  5%;
     text-align: center
@@ -132,7 +129,7 @@ h4 {
 
 /*------------------------------------------------ paddings, margins,text and stuff */
 .text {
-    font-family: "Inria Serif" sans-serif;
+    font-family: "Inria Serif", sans-serif;
     font-weight: 400;
     color: #eee7e7;  
     font-size: 20px;  
@@ -145,7 +142,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Lato", serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #eee7e7;
 }
@@ -223,7 +220,7 @@ footer {
 .contact-form {
     min-height: 120px;
     width: 100%;
-    padding: 4% 20% 10% 20%;
+    padding: 3% 20% 5% 20%;
     position: relative;
     display: block;
     background-color:#232C33;
@@ -352,7 +349,7 @@ footer {
 #aikido10,
 #aikido11,
 #aikido12,
-#aikido13,
+#aikido13
   {
     padding: 30px;
     margin: 0;
@@ -400,9 +397,8 @@ footer {
 } 
 
 .text-jason {
-    /* width: 100%; */
+
     line-height: 26px;
     text-align: center;
     padding:0 4%;
-    /* float: right; */
 }
