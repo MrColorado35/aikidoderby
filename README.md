@@ -92,18 +92,18 @@ I was implementing the Idea of not overloading my website with unneeded content)
 
 ## Technologies Used:
 
-    - HTML5 -            I used it to create the core of my website;
+- HTML5 -            I used it to create the core of my website;
 
-    - CSS3 -             I used it to style it;
+- CSS3 -             I used it to style it;
 
-    - GitHub -           Provides me the enviroment to work within;
+- GitHub -           Provides me the enviroment to work within;
 
-    - Bootstrap 4.4 -   I used it to provide responsive Navigation and the Gallery page;
+- Bootstrap 4.4 -   I used it to provide responsive Navigation and the Gallery page;
 
-    - Fontawesome -     They provide the icons for the links in footer section on each page, 
-                        also the "smiling faces" icon that I used in two other places across the page comes from there;
+- Fontawesome -     They provide the icons for the links in footer section on each page, 
+                     also the "smiling faces" icon that I used in two other places across the page comes from there;
 
-    - JQuery -            That was used as a part of the bootstrap, to help with responsivness of my nav-bar;
+- JQuery -            That was used as a part of the bootstrap, to help with responsivness of my nav-bar;
 
 
 ## Testing
