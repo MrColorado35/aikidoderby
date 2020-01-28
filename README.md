@@ -108,25 +108,25 @@ I was implementing the Idea of not overloading my website with unneeded content)
 
 ## Testing
 
-    During the proccess of creation of my first website, I was constantly testing it's functionality.
-    My main worry in this subject was to make it responsive, as many users may visit it through their phones.
-    I tested them manually at the first time, changing elements either in dev-tools (using Google Chrome web browser),
-    or straight in gitpod, where I have created whole project.
+During the proccess of creation of my first website, I was constantly testing it's functionality.
+My main worry in this subject was to make it responsive, as many users may visit it through their phones.
+I tested them manually at the first time, changing elements either in dev-tools (using Google Chrome web browser),
+or straight in gitpod, where I have created whole project.
 
-    As the website is intended for people that would like to join our club, I was trying to adjust everything
-    to make finding us as easy as possible and not to overload website with the unnecessery content.
+As the website is intended for people that would like to join our club, I was trying to adjust everything
+to make finding us as easy as possible and not to overload website with the unnecessery content.
     
-    One of the main problems I found, was the animated picture on the main page, 
-    that didn't work very well in Mozilla, also on larger screens than mine it didn't perform as great. 
-    Finaly I've decided to live the main picture static, as it improves overall effect on any equipment.
+One of the main problems I found, was the animated picture on the main page, 
+that didn't work very well in Mozilla, also on larger screens than mine it didn't perform as great. 
+Finaly I've decided to live the main picture static, as it improves overall effect on any equipment.
 
-    I have also run automated tests on https://validator.w3.org/ to eliminate all code issues, 
-    and format my code at https://www.freeformatter.com/html-formatter.html to make it look nice and clear 
-    for other developers that may ever work with it.
+I have also run automated tests on https://validator.w3.org/ to eliminate all code issues, 
+and format my code at https://www.freeformatter.com/html-formatter.html to make it look nice and clear 
+for other developers that may ever work with it.
 
-    While the proccess of deployment of my website, I've slightly changed the name of my project on the GitHub.
-    That effects in a lot of issues with gitpod,
-    I'm still trying to understand what happened and why, to avoid similar mistakes in my future projects.
+While the proccess of deployment of my website, I've slightly changed the name of my project on the GitHub.
+That effects in a lot of issues with gitpod,
+I'm still trying to understand what happened and why, to avoid similar mistakes in my future projects.
 
 
 ## Deployment 
