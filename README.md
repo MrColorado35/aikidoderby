@@ -30,11 +30,11 @@ Also this solution provides 5 chances to find our Facebook or Instagram account 
 To make the links to our social media more visually attractive, I used icons taken from https://fontawesome.com/ 
 
 As the best source of information about our Club is the Facebook page, regularly updated by our sensei,
-across whole page I've located quite a few ways to make it easy for user, to get there.
+across whole page I've located quite a few ways to make it easy for users to get there.
 Althought if the users do not have a Facebook account for any reason, 
 they can still find all neccesssery informations about our classes, location and costs.
 Also that's why I left our sensei's number in the footer,
-if anyone has got a questions that our website are not answering yet.
+if anyone has got a questions that our website is not answering yet.
 
 
 ## Features:
@@ -44,7 +44,7 @@ presenting one of the more advanced techniques
 and turn it into animation, to draw more attention of the visitors.
 Underneath we've got some text-description of what aikido is, 
 based on the article from Wikipedia.
-As it's extremly hard to work with kids in a pre-school age, I've highlighted note about minimum age,
+As it's extremly hard to work with kids in a pre-school age, I've highlighted the minimum age,
 among with information that we are open to all adults that want to join us.
 
 The "Beginners zone" contains the quote about aikido,
@@ -56,37 +56,37 @@ to prove our opennes and to encourage more women to join us
 Under the picture, there are most important details for the new members- how to get here,
 When do we train and how much does it costs.
 I've also left the note of how to dress, as it may not be obvious.
-Our address and time are highlighted, 
+Our address and time of the lessons are highlighted, 
 as that's the most important info on whole website and main reason for people to visit it.
 
 "Gallery" page is based on the modals, provided by Bootstrap. 
 Users that are parents, can find pictures of other kids on some of the photos, 
-so it may make them happy to send their kids for the class as well.
+so it may be encouraging to send their kids for the class as well.
 All users can see examples of various techniques, 
 hopefully attractive enough to interest more people to come and try.
 
 
 "About" section provides the picture of the founder of Aikido with some brief informations about history of Aikido 
-(based on wikipedia page again),
+(based on wikipedia page, again),
 Under that we can find some history of our club (taken from our Facebook description, 
-without unnecessary bits, that are huge part of it down there- 
-I was implementig the Idea of not overloading my website with unneeded content).
+without unnecessary, more descriptive parts, that may be interesting to more experienced learners, but daunting for beginners- 
+I was implementing the Idea of not overloading my website with unneeded content).
 
-"Contact" section contain short remainder of most important informations, among with the form 
-(that is not fully functional yet), if someone shy to call sensei or text him on Facebook.
+"Contact" section contains short reminder of most important informations, among with the form 
+(that is not fully functional yet), if someone prefers that form of contact over calling or texting the Sensei.
 
 
 ### Existing features:
 - gallery with the modals, hopefully more attractive than other ways;
-- responsive design, that works and looks good on all various types of the equipment;
-- fully functional nav panel, that adjust to the size of the screen;
+- responsive design, that works and looks good on various types of equipment;
+- fully functional nav panel, that adjusts to the size of the screen;
 
 
 ### Features Left to Implement:
 - form from the contact page to send the messages straight to the sensei;
 - some slow-motion videos to be embedded to the gallery page (the one I was trying to add recently does not work);
-- as we've got the Club T-shirts, it could be good idea to provide option of buying them through our website,
-     (after I learn how to make it), as it will benefit the club.
+- as we've got the Club's t-shirts, it could be a good idea to provide an option of buying them through our website,
+     (after I learn how to add that feature), as it will benefit the club.
     
 
 
@@ -113,11 +113,11 @@ I was implementig the Idea of not overloading my website with unneeded content).
     I tested them manually at the first time, changing elements either in dev-tools (using Google Chrome web browser),
     or straight in gitpod, where I have created whole project.
 
-    As the website is intendet for people that would like to join our club, I was trying to adjust everything
-    to make finding us as easy as it's possible and not to overload website with the unnecessery content.
+    As the website is intended for people that would like to join our club, I was trying to adjust everything
+    to make finding us as easy as possible and not to overload website with the unnecessery content.
     
     One of the main problems I found, was the animated picture on the main page, 
-    that didn't work very well on Mozilla, also on larger screens than mine it didn't perform as great. 
+    that didn't work very well in Mozilla, also on larger screens than mine it didn't perform as great. 
     Finaly I've decided to live the main picture static, as it improves overall effect on any equipment.
 
     I have also run automated tests on https://validator.w3.org/ to eliminate all code issues, 
@@ -148,7 +148,7 @@ section "training"
 
  ### Media
 - Picture of a Sensei Founder comes from https://en.wikipedia.org/wiki/Morihei_Ueshiba 
-- All other pictures comes from our Facebook page or has been done by myself.
+- All other pictures come from our Facebook page or has been done by myself.
 - The Youtube video comes from our Youtube profile and has been made by "Sensei's Friend", 
  that is mentioned in video description.
 
