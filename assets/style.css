@@ -107,7 +107,7 @@ h4 {
     background-color:#1C3144;
     position: relative;
     display: block;
-    
+    text-align: justify;  
 
 }
 
@@ -305,6 +305,8 @@ footer {
     margin-top:0;
     margin-bottom: 0;
     padding:5% 20%;
+    text-align: justify;
+    
 }
 
 .map {
@@ -379,7 +381,8 @@ footer {
     background-color: #555353c2;
     padding: 5%;  
     margin: 0;
-    width: 100%;    
+    width: 100%; 
+
 }
 
 .picture-about {
@@ -388,7 +391,7 @@ footer {
 
 .text-about {
  
-    text-align: center;  
+    text-align: justify;  
     padding:0 4%;
     }
 
@@ -406,6 +409,6 @@ footer {
 .text-jason {
 
     line-height: 26px;
-    text-align: center;
+    text-align: justify;
     padding:0 4%;
 }
