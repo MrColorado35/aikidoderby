@@ -115,17 +115,25 @@ or straight in gitpod, where I have created whole project.
 
 As the website is intended for people that would like to join our club, I was trying to adjust everything
 to make finding us as easy as possible and not to overload website with the unnecessery content.
+
+None of the pictures on the website was taken by proffessional photographer, and as such they are not fitting right 
+If I use option object-fit: cover; (and looks funny with :contain;) That's why I decided to leave it unset.
     
 One of the main problems I found, was the animated picture on the main page, 
 that didn't work very well in Mozilla, also on larger screens than mine it didn't perform as great. 
 Finaly I've decided to live the main picture static, as it improves overall effect on any equipment.
+
+Another interesting issue I found while testing, was the map in Polish. 
+Despite the fact that I use English in my Google Chrome, somehow the Google maps was set up for Polish 
+and none of the changes within the browser could hepl to change it.
+Finally I used Google maps in incognito window and that's how I was able to set it up in English.
 
 I have also run automated tests on https://validator.w3.org/ to eliminate all code issues, 
 and format my code at https://www.freeformatter.com/html-formatter.html to make it look nice and clear 
 for other developers that may ever work with it.
 
 While the proccess of deployment of my website, I've slightly changed the name of my project on the GitHub.
-That effects in a lot of issues with gitpod,
+That effects in a lot of issues with gitpod, that luckily got solved with a little help from my mentor.
 I'm still trying to understand what happened and why, to avoid similar mistakes in my future projects.
 
 
