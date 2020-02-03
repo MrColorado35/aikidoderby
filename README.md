@@ -64,6 +64,8 @@ Users that are parents, can find pictures of other kids on some of the photos,
 so it may be encouraging to send their kids for the class as well.
 All users can see examples of various techniques, 
 hopefully attractive enough to interest more people to come and try.
+None of the pictures on the website was taken by proffessional photographer, and as such they don't look right 
+If I use option object-fit: cover; (and looks funny with :contain;) That's why I decided to leave it unset.
 
 
 "About" section provides the picture of the founder of Aikido with some brief informations about history of Aikido 
@@ -115,9 +117,6 @@ or straight in gitpod, where I have created whole project.
 
 As the website is intended for people that would like to join our club, I was trying to adjust everything
 to make finding us as easy as possible and not to overload website with the unnecessery content.
-
-None of the pictures on the website was taken by proffessional photographer, and as such they are not fitting right 
-If I use option object-fit: cover; (and looks funny with :contain;) That's why I decided to leave it unset.
     
 One of the main problems I found, was the animated picture on the main page, 
 that didn't work very well in Mozilla, also on larger screens than mine it didn't perform as great. 
@@ -128,7 +127,7 @@ Despite the fact that I use English in my Google Chrome, somehow the Google maps
 and none of the changes within the browser could hepl to change it.
 Finally I used Google maps in incognito window and that's how I was able to set it up in English.
 
-I have also run automated tests on https://validator.w3.org/ to eliminate all code issues, 
+I have run automated tests on https://validator.w3.org/ to eliminate all code issues, 
 and format my code at https://www.freeformatter.com/html-formatter.html to make it look nice and clear 
 for other developers that may ever work with it.
 
@@ -139,11 +138,11 @@ I'm still trying to understand what happened and why, to avoid similar mistakes 
 
 ## Deployment 
 
-    I'm still struggling with deployment of my page, trying to figure out why 
-    Gitpod pages don't want to work.
-    Tutor help could be very useful, but unlickily because of my current work, 
-    I can only work over my project in evnings, when they are really busy.
-    I'll update this section when I will only manage to do it.
+The biggest problem with deployment of my website was an issue caused by text file "dojo-etiquette.md", 
+that I was trying to include as an attachement, but for some reason it did not work.
+After fixing that, (and also deleting two spare files- gitignore and .yml) page is up and running.
+It can be accessed by following link: https://mrcolorado35.github.io/milestone-project/
+
 
 ## Credit
 
