@@ -379,7 +379,7 @@ footer {
 
 .container-about {    
     background-color: #555353c2;
-    padding: 5%;  
+    padding: 3% 5%;  
     margin: 0;
     width: 100%; 
 
@@ -397,7 +397,7 @@ footer {
 
 .container-jason {
     background-color:  #232C33;
-    padding: 5%;
+    padding: 3% 5%;
     margin: 0; 
     width: 100%;
 }  
