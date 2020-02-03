@@ -46,6 +46,7 @@ Underneath we've got some text-description of what aikido is,
 based on the article from Wikipedia.
 As it's extremly hard to work with kids in a pre-school age, I've highlighted the minimum age,
 among with information that we are open to all adults that want to join us.
+I've also added a short Youtube video, that is our official trailer.
 
 The "Beginners zone" contains the quote about aikido,
 then another animated picture of sensei presenting more static technique, 
@@ -58,6 +59,7 @@ When do we train and how much does it costs.
 I've also left the note of how to dress, as it may not be obvious.
 Our address and time of the lessons are highlighted, 
 as that's the most important info on whole website and main reason for people to visit it.
+There's also a link to Google maps, for the people that don't know our city very well.
 
 "Gallery" page is based on the modals, provided by Bootstrap. 
 Users that are parents, can find pictures of other kids on some of the photos, 
@@ -67,12 +69,11 @@ hopefully attractive enough to interest more people to come and try.
 None of the pictures on the website were taken by a proffessional photographer, and therefore they don't look great 
 If I use option object-fit: cover; (and looks funny with :contain;) That's why I decided to leave it unset.
 
-
 "About" section provides the picture of the founder of Aikido with some brief informations about history of Aikido 
 (based on wikipedia page, again),
 Under that we can find some history of our club (taken from our Facebook description, 
-without unnecessary, more descriptive parts, that may be interesting to more experienced learners, but daunting for beginners- 
-I was implementing the Idea of not overloading my website with unneeded content).
+without unnecessary, more descriptive parts, that may be interesting to more experienced learners, 
+but daunting for beginners- I was implementing the Idea of not overloading my website with unneeded content).
 
 "Contact" section contains short reminder of most important informations, among with the form 
 (that is not fully functional yet), if someone prefers that form of contact over calling or texting the Sensei.
@@ -165,15 +166,4 @@ i.eg. The idea of animated pictures comes frome "love running" project,
       The idea for the footer comes frome "Resume project" on the end of CSS part,
 I also took the idea of the top navigation from https://blackrockdigital.github.io/startbootstrap-freelancer/ 
 and then adjust it to my needs.
-    
-
-    
-
-
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/MrColorado35/milestone-project) 
-
-
-
-
-
 
