@@ -64,7 +64,7 @@ Users that are parents, can find pictures of other kids on some of the photos,
 so it may be encouraging to send their kids for the class as well.
 All users can see examples of various techniques, 
 hopefully attractive enough to interest more people to come and try.
-None of the pictures on the website was taken by proffessional photographer, and as such they don't look right 
+None of the pictures on the website were taken by a proffessional photographer, and therefore they don't look great 
 If I use option object-fit: cover; (and looks funny with :contain;) That's why I decided to leave it unset.
 
 
@@ -124,14 +124,14 @@ Finaly I've decided to live the main picture static, as it improves overall effe
 
 Another interesting issue I found while testing, was the map in Polish. 
 Despite the fact that I use English in my Google Chrome, somehow the Google maps was set up for Polish 
-and none of the changes within the browser could hepl to change it.
+and none of the changes within the browser could help to change it.
 Finally I used Google maps in incognito window and that's how I was able to set it up in English.
 
 I have run automated tests on https://validator.w3.org/ to eliminate all code issues, 
 and format my code at https://www.freeformatter.com/html-formatter.html to make it look nice and clear 
 for other developers that may ever work with it.
 
-While the proccess of deployment of my website, I've slightly changed the name of my project on the GitHub.
+During the proccess of deployment of my website, I've slightly changed the name of my project on the GitHub.
 That effects in a lot of issues with gitpod, that luckily got solved with a little help from my mentor.
 I'm still trying to understand what happened and why, to avoid similar mistakes in my future projects.
 
