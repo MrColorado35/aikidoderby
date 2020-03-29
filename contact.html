@@ -12,6 +12,15 @@
       <link href="https://fonts.googleapis.com/css?family=Inria+Serif" rel="stylesheet">
       <link rel="stylesheet" href="assets/style.css" type="text/css">
       <title>Aikido Derby Club</title>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+      </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("user_RaypSYtEQCZWzWdfx6WqL");
+            })();
+        </script>
+
    </head>
    <body>
       <header class="nav">
@@ -65,7 +74,7 @@
             <div class="center-form contact-form-element">
                <!-- I don't know yet how to make the form working, but informations I found in internet says I need JavaScript, 
                   which I'm not supposed to use in this project, as far as I'm concerned. -->
-               <form action="forms/form1.txt" method="post">
+               <form onsubmit="return sendMail(this);" method="POST">
                   <div class="form-group">
                      <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
                   </div>
@@ -120,5 +129,6 @@
             </div>
          </div>
       </footer>
+      <script src="assets/main.js"></script>
    </body>
 </html>
