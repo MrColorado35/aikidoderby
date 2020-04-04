@@ -74,7 +74,7 @@
             <div class="center-form contact-form-element">
                <!-- I don't know yet how to make the form working, but informations I found in internet says I need JavaScript, 
                   which I'm not supposed to use in this project, as far as I'm concerned. -->
-               <form onsubmit="return sendMail(this);" method="post">
+               <form onsubmit="return sendMail(this);">
                   <div class="form-group">
                      <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
                   </div>
@@ -85,7 +85,7 @@
                      <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
                   </div>
                   <div class="form-group">   
-                     <textarea rows="5"  name="message" id="message" class="form-control" 
+                     <textarea rows="5"  name="contact" id="message" class="form-control" 
                         placeholder="Your Message" required></textarea>
                   </div>
                   <div class="form-group">
