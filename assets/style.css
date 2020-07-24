@@ -73,6 +73,20 @@ h4 {
 }
 
 /*----------------------------------------------------------- Home  */
+.news {
+    background-color: #c71515;
+    color: black;
+    opacity: 0.8;
+    text-align: center;
+    padding: 5%;
+    font-size: 120%;
+    border: 2px solid #1C3144;
+    margin: auto;
+}
+
+.adjust-news {
+    background-color:  #555353c2;
+}
 
 #hero-outer {
     width: 100%;
