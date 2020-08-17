@@ -72,6 +72,27 @@ h4 {
     color:aqua !important;
 }
 
+/*----------------------------------------------------------- FCB link  */
+
+
+#FcbLink {
+    color: #3b5998;
+    /* background-color:  #555353; */
+    height: 80px;
+    width: 100px;
+    position: fixed;
+    top: 120px;
+    right: 12px;
+    font-size: 400%;
+    z-index: 999;
+}
+
+#FcbLink div {
+    text-align: center;
+    object-position: center;
+}
+
+
 /*----------------------------------------------------------- Home  */
 .news {
     background-color: #c71515;
