@@ -7,7 +7,7 @@ function sendMail(contactForm){
     })
     .then(
         function(response) {
-            alert("SUCCESS! We've got your message and wil answer soon", response);
+            alert("SUCCESS! We've got your message and will answer soon. Unless the Universe will decide differently", response);
         },
         function(error) {
             alert("Sending FAILED, please contact Jason via his mobile number underneath.", error);

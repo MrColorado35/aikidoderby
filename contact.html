@@ -12,14 +12,12 @@
       <link href="https://fonts.googleapis.com/css?family=Inria+Serif" rel="stylesheet">
       <link rel="stylesheet" href="assets/style.css" type="text/css">
       <title>Aikido Derby Club</title>
-      <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+      <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+      <script type="text/javascript">
+        (function() {
+            emailjs.init("user_v38cxYajLnxIu0zG0E6bR");
+        })();
       </script>
-        <script type="text/javascript">
-            (function(){
-                emailjs.init("user_RaypSYtEQCZWzWdfx6WqL");
-            })();
-        </script>
 
    </head>
    <body>
@@ -72,21 +70,22 @@
          <div class="container" id="contact-form">
             <div class="text if-you-have-to"> Just write them here and we will try to answer as soon as possible.</div>
             <div class="center-form contact-form-element">
-               <!-- I don't know yet how to make the form working, but informations I found in internet says I need JavaScript, 
-                  which I'm not supposed to use in this project, as far as I'm concerned. -->
                <form onsubmit="return sendMail(this);">
                   <div class="form-group">
                      <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
                   </div>
                   <div class="form-group">
-                     <input type="tel" name="tel" id="tel" class="form-control" placeholder="Your Contact Number">
+                     <input type="tel" name="tel" id="tel" class="form-control" placeholder="Your contact number (optional)">
                   </div>
                   <div class="form-group">   
-                     <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                     <input type="email" name="email" id="email" class="form-control" placeholder="Your email" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" id="email-again"  class="form-control" placeholder="Please repeat your email" required>
                   </div>
                   <div class="form-group">   
                      <textarea rows="5"  name="contact" id="message" class="form-control" 
-                        placeholder="Your Message" required></textarea>
+                        placeholder="Your message" required></textarea>
                   </div>
                   <div class="form-group">
                      <div class="form-row text-center">
@@ -105,7 +104,7 @@
          <div class="row"  id="footer-details">
             <div class="col-sm-6">
                <h5 class="uppercase general-sub">About our club</h5>
-               <p class="inline-block">We are a small, friendly club in Derby city center.
+               <p class="inline-block">We are a small, friendly club in Derby      city center.
                   Our classes are taking place on Sundays at 6pm. Contact Jason at 07958651534 for more info. <br>
                   Beginners are always welcome!
                </p>
