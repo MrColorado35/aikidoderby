@@ -11,7 +11,10 @@ function sendMail(contactForm){
         },
         function(error) {
             alert("Sending FAILED, please contact Jason via his mobile number (you can find it in a footer).", error);
-        }
-    );
+        })
+    .then(
+        function redirect() {
+			location.replace("index.html");
+		});
     return false; 
 }
