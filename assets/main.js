@@ -10,7 +10,7 @@ function sendMail(contactForm){
             alert("SUCCESS! We've got your message and will answer soon. Unless the Universe will decide differently", response);
         },
         function(error) {
-            alert("Sending FAILED, please contact Jason via his mobile number underneath.", error);
+            alert("Sending FAILED, please contact Jason via his mobile number (you can find it in a footer).", error);
         }
     );
     return false; 
