@@ -74,10 +74,55 @@ h4 {
 
 /*----------------------------------------------------------- FCB link  */
 
+/* Container for the buttons on the right */
+ #FcbLink {
+    position: fixed; /* Keeps the buttons fixed in place */
+     top: 120px; /* Adjust the vertical position  */
+    right: 10px; /* Adjust the horizontal distance from the right edge  */
+    z-index: 999; /* Keeps the buttons on top of other elements  */
+    display: flex; /* Use flexbox to align buttons horizontally  */
+    flex-direction: column; /* Stack the buttons vertically  */
+    align-items: flex-end; /* Align the buttons to the right  */
+} 
 
+/* Buttons should have individual colors and no parent background */
+#FcbLink a {
+    font-size: 1.1rem; /* Adjust text size */
+    min-width: 180px; /* Ensure buttons have minimum width */
+    margin-bottom: 10px; /* Space between buttons */
+    display: block; /* Stack buttons vertically */
+    padding: 10px; /* Add padding inside the button for better click area */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Facebook button styling */
+#FcbLink .btn-facebook {
+    background-color: #3b5998; /* Facebook color */
+    color: white; /* White text color */
+}
+
+/* WhatsApp button styling */
+#FcbLink .btn-whatsapp {
+    background-color: #25D366; /* WhatsApp color */
+    color: white; /* White text color */
+}
+
+/* Hover effects for better interactivity */
+#FcbLink a:hover {
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+/* Optional: Remove borders on hover */
+#FcbLink a:focus,
+#FcbLink a:hover {
+    outline: none;
+    border: none;
+} */
+
+/* 
 #FcbLink {
-    /* color: #3b5998; */
-    /* background-color:  #555353; */
     height: 80px;
     width: 100px;
     position: fixed;
@@ -98,7 +143,7 @@ h4 {
 #FcbLink div {
     text-align: center;
     object-position: center;
-}
+} */
 
 
 /*----------------------------------------------------------- Home  */
