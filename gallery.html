@@ -14,7 +14,46 @@
       <title>Aikido Derby Club</title>
    </head>
    <body>
-       <header class="nav">
+      <header class="nav">
+         <div class="container-fluid all-nav">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+               <!-- LOGO AND BRAND NAME SIDE BY SIDE -->
+               <a class="navbar-brand d-flex align-items-center" href="index.html">
+                  <img src="images/aikido_logo.jpeg" alt="Aikido Derby Logo" style="height:40px; width:auto; margin-right:10px;">
+                  Aikido Derby
+               </a>
+      
+               <!-- BURGER MENU FOR MOBILE -->
+               <button class="navbar-toggler" type="button" data-toggle="collapse"
+                  data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+      
+               <!-- NAV LINKS -->
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="beginners.html">Beginners Zone</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </header>
+       <!-- <header class="nav">
          <div class="container-fluid all-nav">
             <nav class="navbar navbar-expand-lg navbar-dark" style="color:inherit;">
                <a class="navbar-brand" id="logo"  href="index.html">Aikido Derby</a>
@@ -44,7 +83,7 @@
                </div>
             </nav>
          </div>
-      </header>
+      </header> -->
       <section id="FcbLink">
         <h2 class="sr-only">Facebook Link</h2>
         <div><a href="https://www.facebook.com/aikidoderby/" target="_blank">
@@ -104,177 +143,13 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div>
-      <!-- <section class="display-order">
-         <h2 class="sr-only">pictures from the trainings across 2019</h2>
-         <div class="picture">
-            Large modal from bootstrap
-            <button type="button" class="btn" id="aikido10" data-toggle="modal" 
-               data-target=".picture10"><img src="images/aikido10.jpg" class="miniatures" width="200" height="200" 
-               alt="Picture10">
-            </button>
-            <div class="modal fade picture10" tabindex="-1" role="dialog" aria-labelledby="aikido10" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content aikido10">
-                     <img src="images/aikido10.jpg" class="gallery-item" alt="Picture 10">
-                  </div>
-               </div>
             </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido11" data-toggle="modal" 
-               data-target=".picture11"><img src="images/aikido11.jpg" class="miniatures" width="200" 
-               height="200" alt="Picture 11">
-            </button>
-            <div class="modal fade picture11" tabindex="-1" role="dialog" aria-labelledby="aikido11" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content aikido11">
-                     <img src="images/aikido11.jpg" class="gallery-item" alt="Picture 11">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido12" data-toggle="modal" 
-               data-target=".picture12"><img src="images/aikido12.jpg" class="miniatures" width="200"
-               height="200" alt="Some active pictures"></button>
-            <div class="modal fade picture12" tabindex="-1" role="dialog" aria-labelledby="aikido12" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content aikido12">
-                     <img src="images/aikido12.jpg" class="gallery-item" alt="Picture 12">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido13" data-toggle="modal" 
-               data-target=".picture13"><img src="images/aikido13.jpg" class="miniatures" width="200" 
-               height="200" alt="Some active pictures">
-            </button>
-            <div class="modal fade picture13" tabindex="-1" role="dialog"
-               aria-labelledby="aikido13" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                     <img src="images/aikido13.jpg" class="gallery-item" alt="Picture13">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido03" data-toggle="modal" 
-               data-target=".picture03"><img src="images/aikido3.jpg" class="miniatures" width="200" height="200"
-               alt="Some active pictures">
-            </button>
-            <div class="modal fade picture03" tabindex="-1" role="dialog" 
-               aria-labelledby="aikido03" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                     <img src="images/aikido3.jpg" class="gallery-item" alt="Picture03">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido04" data-toggle="modal" 
-               data-target=".picture04"><img src="images/aikido4.jpg" class="miniatures" width="200" height="200"
-               alt="Some active pictures">
-            </button>
-            <div class="modal fade picture04" tabindex="-1" role="dialog" aria-labelledby="aikido04" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content ">
-                     <img src="images/aikido4.jpg" class="gallery-item" alt="Picture04">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido02" data-toggle="modal" 
-               data-target=".picture02"><img src="images/aikido2.jpg" class="miniatures" width="200" height="200"
-               alt="Some active pictures">
-            </button>
-            <div class="modal fade picture02" tabindex="-1" role="dialog" aria-labelledby="aikido02" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                     <img src="images/aikido2.jpg" class="gallery-item" alt="Picture 2">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido05" data-toggle="modal" 
-               data-target=".picture05"><img src="images/aikido5.jpg" class="miniatures" width="200" height="200"
-               alt="Some active pictures">
-            </button>
-            <div class="modal fade picture05" tabindex="-1" role="dialog" aria-labelledby="aikido05" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                     <img src="images/aikido5.jpg" class="gallery-item" alt="Picture 5">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido06" data-toggle="modal" 
-               data-target=".picture06"><img src="images/aikido6.jpg" class="miniatures" width="200" height="200"
-               alt="Some active pictures">
-            </button>
-            <div class="modal fade picture06" tabindex="-1" role="dialog" aria-labelledby="aikido06" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                     <img src="images/aikido6.jpg" class="gallery-item" alt="Picture 6">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido07" data-toggle="modal" 
-               data-target=".picture07"><img src="images/aikido7.jpg" class="miniatures" width="200" height="200"
-               alt="Some active pictures">
-            </button>
-            <div class="modal fade picture07" tabindex="-1" role="dialog" aria-labelledby="aikido07" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                     <img src="images/aikido7.jpg" class="gallery-item" alt="Picture 7">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido08" data-toggle="modal" 
-               data-target=".picture08"><img src="images/aikido8.jpg" class="miniatures" width="200" height="200"
-               alt="Some active pictures">
-            </button>
-            <div class="modal fade picture08" tabindex="-1" role="dialog" aria-labelledby="aikido08" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                     <img src="images/aikido8.jpg" class="gallery-item" alt="Picture 8">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="picture">
-            <button type="button" class="btn" id="aikido09" data-toggle="modal" 
-               data-target=".picture09"><img src="images/aikido9.jpg" class="miniatures" width="200" height="200"
-               alt="Some active pictures">
-            </button>
-            <div class="modal fade picture09" tabindex="-1" role="dialog" aria-labelledby="aikido09" aria-hidden="true">
-               <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                     <img class="gallery-item" src="images/aikido9.jpg" alt="Picture 9">
-                  </div>
-               </div>
-            </div>
-         </div>
-          <div class="row">
-               <div class="col-12">
-                  <iframe id="welcome-video" height="315" src="https://www.youtube.com/embed/sYxEIEJNfyo" 
-                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               </div>
-               <div class="col-12 padding-top">
-                <p class="text">More of the videos from our Club you can find</p> -->
-               <a class="text link padding-top" href="https://www.youtube.com/user/AIKIDODERBY" target="_blank">Here you can find our videos</a>
-               </div>
-            </div>
+            <div class="text-center mt-4">
+               <br>
+               <a href="https://www.youtube.com/user/AIKIDODERBY" target="_blank" class="btn btn-danger btn-lg shadow-sm">
+                 <i class="fab fa-youtube"></i> Watch Our Videos
+               </a>
+             </div>
       </section> 
       <footer class="container-fluid" >
          <div class="row"  id="footer-details">

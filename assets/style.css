@@ -74,6 +74,12 @@ h4 {
 
 /*----------------------------------------------------------- FCB link  */
 
+/* @media (max-width: 768px) {
+    .fb-page {
+       width: 100% !important;
+    }
+ } */
+
 /* Container for the buttons on the right */
  #FcbLink {
     position: fixed; /* Keeps the buttons fixed in place */
